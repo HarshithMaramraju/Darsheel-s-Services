@@ -1,0 +1,97 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: rgba(5, 5, 5, 0.958);
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+  
+  #hero {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  #founder {
+    background-color: #ecf0f1;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #why-choose {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+  }
+
+.icon-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.icon img {
+    width: 200px;
+    height: 150px;
+    transition: 2s ease-in-out;
+}
+
+.icon img:hover{
+    transform: scale(1.2);
+}
+  
+  #countdown {
+    background-color: #ecf0f1;
+    text-align: center;
+    padding: 50px 0;
+  }
+
+  #timmer{
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  
+  #cta {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  #slide-in-form {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: none;
+  }
+  
+  
